@@ -7,4 +7,9 @@ public class Main {
 		
 	}
 
+	public static boolean esDivisiblePorCinco(int numero){
+		if (numero % 5 == 0){
+			return true;
+		} else return false;
+	}
 }
